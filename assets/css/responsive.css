@@ -1,0 +1,38 @@
+@media only screen and (max-width: 992px){
+      /*  */
+}
+
+@media only screen and (max-width: 429px){
+      #hero .nama{
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: rgb(22,28,59);
+      font-size: 20px;
+      letter-spacing: 1px;
+      font-weight: 700;
+}
+
+      #hero a .sosmed{    
+      font-size: 25px;
+}
+
+#about img{
+      height: 280px;
+}
+
+#about div.about2{
+      font-size: 12px;
+}
+
+#about .jarak1{
+      height: 65px;
+}
+
+#about .jarak2{
+      height: 20px;
+}
+
+#about button{
+      height: 40px;
+      font-size: 17px;
+}
+}
