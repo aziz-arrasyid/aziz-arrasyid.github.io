@@ -42,19 +42,23 @@
       font-size: 17px;
 }
 
+#foot{
+      height: 700px;
+}
+
 #foot .foot{
       font-size: 20px;
 }
 
 #foot .footJarak{
-      height: 80px;
+      height: 150px;
 }
 
 /* #foot{
       margin-top: 100px;
 } */
 
-#foot .slider{
-      height: 225px;
-}
+/* #foot .slider{
+      height: 625px;
+} */
 }
