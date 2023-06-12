@@ -1,6 +1,7 @@
 body{
       margin: 0;
       padding: 0;
+      transition: background 0.2s linear;
 }
 
 /* section navbar */
@@ -88,7 +89,7 @@ body{
 }
 
 #hero .info:hover{
-      color: rgb(255,182,51);
+      color: rgb(255,206,0);
 }
 
 #hero a{
@@ -132,7 +133,7 @@ body{
       height: 2px;
       bottom: 0;
       left: 0;
-      background-color: rgb(255,182,51);
+      background-color: rgb(255,206,0);
       transition: width 0.5s ease;
 
 }
@@ -144,13 +145,13 @@ body{
       height: 2px;
       bottom: 0;
       right: 0;
-      background-color: rgb(255,182,51);
+      background-color: rgb(255,206,0);
       transition: width 0.5s ease;
 
 }
 
 #about .about:hover{
-      color: rgb(255,182,51);
+      color: rgb(255,206,0);
       transition: 0.5s;
 }
 
@@ -174,16 +175,17 @@ body{
 }
 
 #about .button{
-      background-color: rgb(255,182,51);
+      background-color: rgb(255,206,0);
       width: 170px;
       color: white;
       transition: 0.5s;
+      border: 1px solid rgb(255,206,0);
 }
 
 #about .button:hover{
       background-color: white;
-      color: rgb(255,182,51);
-      border: 1px solid rgb(255,182,51);
+      color: rgb(255,206,0);
+      border: 1px solid rgb(255,206,0);
 }
 
 #about .html:hover{
@@ -252,7 +254,7 @@ body{
   box-sizing: border-box;
 }
 
-html, body {
+/* html, body {
   height: 100%;
 }
 
@@ -261,7 +263,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-}
+} */
 
 .slider {
   height: 100%;
@@ -396,5 +398,68 @@ body {
 #foot a{
       text-decoration: none;
       color: black;
+      transition: color 0.6s;
+}
+
+#foot a:hover{
+      color: rgb(255,206,0);
+}
+
+#foot .foot{
+      font-size: 40px;
+      font-weight: 800;
+      color: black;
+      position: relative;
+      letter-spacing: 2px;
+      transition: color 0.5s ease;
+}
+
+#foot .foot:after{
+      content: '';
+      position: absolute;
+      width: 60%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(255,206,0);
+      transition: width 0.5s ease;
+
+}
+
+#foot .foot:before{
+      content: '';
+      position: absolute;
+      width: 60%;
+      height: 2px;
+      bottom: 0;
+      right: 0;
+      background-color: rgb(255,206,0);
+      transition: width 0.5s ease;
+
+}
+
+#foot .foot:hover{
+      color: rgb(255,206,0);
+      transition: 0.5s;
+}
+
+#foot .foot:hover::before {
+  width: 0;
+}
+
+#foot .foot:hover::after {
+  width: 0;
+}
+
+#foot .footJarak{
+      height: 50px;
+}
+
+#foot .slider{
+      height: 600px;
+}
+
+#foot .bawah{
+      background-color: rgb(51,51,51);
 }
 /* end section foot */

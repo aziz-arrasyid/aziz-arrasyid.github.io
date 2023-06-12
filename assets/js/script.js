@@ -39,6 +39,14 @@ $(document).ready(function() {
   });
 });
 
+const themeToggle = document.getElementById('checkbox');
+const body = document.body;
+
+themeToggle.addEventListener('click', function() {
+    body.classList.toggle('dark-mode');
+});
+
+
 
 
 

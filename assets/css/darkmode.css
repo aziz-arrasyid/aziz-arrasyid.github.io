@@ -1,0 +1,119 @@
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-label {
+  background-color: #111;
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-moon {color: #f1c40f;}
+
+.fa-sun {color: #f39c12;}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(24px);
+}
+
+/* section hero */
+.dark-mode #hero{
+      background-color: black;
+}
+
+.dark-mode #hero .nama{
+      color: rgb(255,206,0);
+}
+
+.dark-mode #hero p{
+      color: white;
+}
+
+.dark-mode #hero .sosmed{
+      color: white;
+}
+
+.dark-mode #hero .sosmed:hover{
+      color: rgb(255,206,0);
+}
+/* end section hero */
+
+/* section about */
+.dark-mode #about{
+      background-color: black;
+}
+
+.dark-mode #about .about{
+      color: white;
+}
+
+.dark-mode #about .about:hover{
+      color: rgb(255,206,0);
+}
+
+.dark-mode #about .about2{
+      color: white;
+}
+
+.dark-mode #about p{
+      color: white;
+}
+
+.dark-mode #about i{
+      color: white;
+}
+
+.dark-mode #about button:hover{
+      background-color: black;
+}
+/* end section about */
+
+/* section foot */
+.dark-mode #foot{
+      background-color: black;
+}
+
+.dark-mode #foot .foot{
+      color: white;
+}
+
+.dark-mode #foot .foot:hover{
+      color: rgb(255,206,0);
+}
+
+.dark-mode #foot h2 a{
+      color: white;
+}
+
+.dark-mode #foot p{
+      color: white;
+}
+
+.dark-mode #foot a:hover{
+      color: rgb(255,206,0);
+}
+
+/* #foot .slider{
+            height: 500px;
+} */
+
+/* end section foot */

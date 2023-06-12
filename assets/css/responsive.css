@@ -1,5 +1,11 @@
 @media only screen and (max-width: 992px){
-      /*  */
+      #hero .nama{
+            font-size: 30px;
+      }
+
+      #foot .slider{
+            height: 515px;
+      }
 }
 
 @media only screen and (max-width: 429px){
@@ -34,5 +40,21 @@
 #about button{
       height: 40px;
       font-size: 17px;
+}
+
+#foot .foot{
+      font-size: 20px;
+}
+
+#foot .footJarak{
+      height: 80px;
+}
+
+/* #foot{
+      margin-top: 100px;
+} */
+
+#foot .slider{
+      height: 720px;
 }
 }
